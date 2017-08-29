@@ -47,7 +47,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.vection_TypeTableAdapter = new Military_Services.Database_Connection.militaryDatasetTableAdapters.Vection_TypeTableAdapter();
             this.vectionsTableAdapter = new Military_Services.Database_Connection.militaryDatasetTableAdapters.VectionsTableAdapter();
-            this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.vectionTypeBindingSource)).BeginInit();
@@ -57,7 +56,6 @@
             // groupBox1
             // 
             this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.groupBox2);
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.dateEnd);
@@ -209,15 +207,6 @@
             // 
             this.vectionsTableAdapter.ClearBeforeFill = true;
             // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(122, 261);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 16;
-            this.button2.Text = "حفــظ";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
             // Vication
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -257,6 +246,5 @@
         private System.Windows.Forms.Label label5;
         public System.Windows.Forms.Label label7;
         public System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button2;
     }
 }
